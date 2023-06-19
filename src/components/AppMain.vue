@@ -5,10 +5,11 @@
                 <div class="col-12 m-auto">
                     Found cards
                 </div>
+            <CardList/>
+
             </div>
         </div>
 
-            <CardList/>
     </main>
 
 </template>
@@ -20,7 +21,6 @@ export default {
     name: 'AppMain',
     data(){
         return{
-
         }
     },
     components:{
