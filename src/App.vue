@@ -8,5 +8,7 @@ import AppMain from './components/AppMain.vue';
   <AppMain/>
 </template>
 
-<style scoped>
+<style lang="scss">
+  @import '../node_modules/bootstrap/scss/bootstrap';
+  @import './styles/general.scss';
 </style>
