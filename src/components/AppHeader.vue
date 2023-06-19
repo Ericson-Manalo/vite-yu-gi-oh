@@ -4,7 +4,7 @@
             <img src="../assets/images/ygoprodeck_header_logo.png" alt="Ygo Logo">
         </div>
         <div>
-            <h1>
+            <h1 class="ms-4 fs-1">
                 Yu-Gi-Oh Api
             </h1>
         </div>
