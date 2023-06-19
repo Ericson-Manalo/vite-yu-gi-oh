@@ -1,0 +1,22 @@
+<template>
+    <h2>
+        Main
+    </h2>
+</template>
+
+<script>
+export default {
+    name: 'AppMain',
+    data(){
+        return{
+
+        }
+    },
+    components:{
+        
+    }
+}
+</script>
+<style lang="scss">
+    
+</style>
