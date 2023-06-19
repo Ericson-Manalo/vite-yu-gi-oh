@@ -3,11 +3,11 @@
         <div class="main-container">
             <div class="row">
                 <div class="col-12 m-auto">
-                    Found cards
-                </div>
-            <CardList/>
-
+                Found cards
             </div>
+            </div>
+
+            <CardList/>
         </div>
 
     </main>
@@ -41,7 +41,7 @@ export default {
         padding: 1.5rem;
     }
 
-    div.row{
+    div.col-12{
         background-color: #212529;
         color: white;
         padding: 1rem;
