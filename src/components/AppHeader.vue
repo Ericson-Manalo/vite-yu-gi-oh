@@ -1,7 +1,14 @@
 <template>
-    <h1>
-        Header
-    </h1>
+    <header>
+        <div>
+            <img src="../assets/images/ygoprodeck_header_logo.png" alt="Ygo Logo">
+        </div>
+        <div>
+            <h1>
+                Yu-Gi-Oh Api
+            </h1>
+        </div>
+    </header>
 </template>
 
 <script>
@@ -16,5 +23,10 @@ export default {
 </script>
 
 <style lang="scss">
-    
+    header{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        background-color: #fff;
+    }
 </style>
