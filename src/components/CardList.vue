@@ -3,7 +3,7 @@
         <SingleCard v-for="card in cardList"
             :name="card.name"
             :type="card.archetype"
-            :image="card.card_images.image_url_small"
+            :image="card.image_url"
         />  
 
     </div>
@@ -19,7 +19,8 @@ export default {
     name : 'CardList',
     data(){
         return{
-            cardList : []
+            cardList : [],
+            imageList : []
         }
     },
     components:{
@@ -30,7 +31,8 @@ export default {
         axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0')
         .then((response) => {
             this.cardList = response.data.data;
-            console.log(response.data.data.card_images)
+            this.imageList = response.data.data[1].card_images;
+            console.log(this.imageList)
         })
     }
 }
